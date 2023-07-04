@@ -1,26 +1,18 @@
  /* @import url('https://fonts.cdnfonts.com/css/common-pixel'); */
 
  @import url('https://fonts.cdnfonts.com/css/aferd');
-                
-
-                
+                        
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     font-family: 'aferd', sans-serif !important;
                                                 
     /* font-family: 'Common Pixel', sans-serif   ;                                      */
     /* font-family: 'Courier', monospace;
 font-smooth: never;
 -webkit-font-smoothing : none; */
-font-size: 40px;
-color: aliceblue;
-text-align: center;
 }
 
-body{
+.back-img{
     min-height: 100vh;
     background-image: url("https://i.postimg.cc/tC0JMQrC/wallpaperflare-com-wallpaper-5.jpg");
     background-position: center;
@@ -30,7 +22,8 @@ body{
 
 /* WELCOME MESSAGE */
 .welcome-message {
-    font-size: 100px;
+    font-size: 80px;
+    text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
@@ -53,7 +46,7 @@ body{
     width: 100%;
   }
   h1 {
-    font-size: 60px;
+    font-size: 30px;
     color: var(--var-color);
     position: relative;
   }
@@ -99,3 +92,4 @@ body{
       filter: blur(0px) brightness(1);
     }
   }
+
