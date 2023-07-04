@@ -18,6 +18,7 @@ font-smooth: never;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    image-rendering: optimizeSpeed;
 }
 
 /* WELCOME MESSAGE */
@@ -54,8 +55,8 @@ font-smooth: never;
     content: attr(data-text);
     text-shadow: 0px 0px 20px var(--var-color);
     filter: blur(0px) brightness(0);
-    animation: flicker 3s linear forwards;
-    animation-delay: 0.8s;
+    animation: flicker 2s linear forwards;
+    animation-delay: 0.2s;
   }
   @keyframes flicker {
     0% {
@@ -93,3 +94,6 @@ font-smooth: never;
     }
   }
 
+.card {
+  border: solid 2px black !important;
+}
